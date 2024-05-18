@@ -13,7 +13,7 @@ The proprietary parts include web application and backend services.
 
 All platform functionality is available through the python client.
 Backend services are just a wrapper around the python client and act as a bridge between the client and the web application.
-They also provide additional functionality like authentication and authorization.
+They also provide additional functionality like authentication.
 
 The purpose of this repository is to provide a central place for tracking issues and discussions related to the Datero platform.
 You are welcome to open new issues, ask questions, or provide feedback.
@@ -31,7 +31,7 @@ You are welcome to open new issues, ask questions, or provide feedback.
 - repository: https://github.com/chumaky/datero-python-client
 
 ## Postgres FDW specification
-Datero is based on the PostgreSQL database with added set of FDW extensions.
+Datero engine is based on the PostgreSQL database with added set of FDW extensions.
 The YAML specification of these extensions is available in the following repository:
 
 - repository: https://github.com/chumaky/postgres-fdw-spec
